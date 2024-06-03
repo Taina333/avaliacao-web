@@ -9,3 +9,34 @@ function dividir(){
     }
     alert(resultado);
 }
+
+function notas(){
+    var nota1 = parseInt(document.getElementById("num3").value);
+    var nota2 = parseInt(document.getElementById("num4").value);
+    var nota3 = parseInt(document.getElementById("num5").value);
+    var nota4 = parseInt(document.getElementById("num6").value);
+    var resultado = nota1 + nota2 + nota3 + nota4
+    var resultado2 = resultado / 4
+    var resultado3
+    if (resultado2 < 6){
+        resultado3 = "Aluno retido = " + resultado2;
+    }else{
+        resultado3 = "Aluno aprovado  = " + resultado2;
+    }
+    alert(resultado3);
+}
+
+function valores(){
+    var a = parseInt(document.getElementById("num7").value);
+    var b = parseInt(document.getElementById("num8").value);
+    var c = parseInt(document.getElementById("num9").value);
+    var ab = a + b
+    var resultado
+    if (ab < c){
+        resultado = "A soma de A + B = " +ab+ ", sendo MENOR que C = " +c;
+    }else{
+        resultado = "A soma de A + B = " +ab+ ", sendo MAIOR que C = " +c;
+    }
+    alert(resultado)
+}
+    
