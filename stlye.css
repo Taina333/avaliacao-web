@@ -1,0 +1,48 @@
+#container{
+    border: 1px black solid;
+    display: flex;
+    height: 200px;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+#elemento1{
+    border: 1px black solid;
+    height: 50px;
+    width: 500px;
+    display: flex;
+}
+
+#elemento2{
+    border: 1px black solid;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#item1{
+    border: 1px black solid;
+    height: 50px;
+    width: 165px;
+}
+
+#item2{
+    border: 1px black solid;
+    height: 50px;
+    width: 165px;
+}
+
+#item3{
+    border: 1px black solid;
+    height: 50px;
+    width: 165px;
+}
+
+#elemento3{
+    border: 1px black solid;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    margin-bottom: 200px;
+}
