@@ -56,3 +56,13 @@ function salario(){
     resultado = "Salário atual "+atual
     alert(resultado)
 }
+
+function calcular(){
+    var numero = document.getElementById("num14").value;
+    if (numero > 10){
+        resultado = "É MAIOR QUE 10!"
+    }else{
+        resultado = "NÃO É MAIOR QUE 10!"
+    }
+    alert(resultado)
+}
