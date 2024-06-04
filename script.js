@@ -40,3 +40,19 @@ function valores(){
     alert(resultado)
 }
     
+function area(){
+    var base = parseInt(document.getElementById("num10").value);
+    var altura = parseInt(document.getElementById("num11").value);
+    var area = base * altura
+    var area2 = area / 2
+    resultado = "Área do trinângulo é "+area2
+    alert(resultado)
+}
+
+function salario(){
+    var salario = document.getElementById("num12").value;
+    var taxa = document.getElementById("num13").value;
+    var atual = salario + (salario *(taxa / 100))
+    resultado = "Salário atual "+atual
+    alert(resultado)
+}
